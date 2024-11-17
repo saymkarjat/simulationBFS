@@ -85,10 +85,6 @@ public class Simulation {
         }
     }
 
-
-
-
-
     private void createActions(){
         initActions.add(new RockSpawnAction(worldMap));
         initActions.add(new GrassSpawnAction(worldMap));
